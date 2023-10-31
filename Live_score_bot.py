@@ -7,7 +7,7 @@ import time
 import cx_Oracle
 ####################################################
 ############################################
-# BOT CODE ## ## ## ## ## ## ## ## ##
+
 
 
 ###################################################
@@ -63,10 +63,11 @@ while True:
     conn.close()
 
     print("Current Score Is \n ", format(score_card))
+    
+
+## ## ## ## ## ## ## ## ##              BOT CODE                  ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
     import asyncio
     from telegram import Bot
-
-
     async def send_telegram_message():
         # Replace 'YOUR_BOT_TOKEN' with your bot's token
         bot = Bot(token='YOUR_BOT_TOKEN')
