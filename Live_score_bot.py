@@ -13,9 +13,9 @@ import cx_Oracle
 ###################################################
 ###########################################################
 # BELOW CODE IS TABLE CREATION CODE , TO BE EXECUTED JUST ONCE , THAT'S WHY COMMENTED
-########
+########<>
 ###
-# conn = cx_Oracle.connect('hr/hr@localhost:1521/XEPDB1')
+# conn = cx_Oracle.connect('hr/<password>@localhost:1521/XEPDB1')
 
 # print(conn.version)
 
@@ -37,13 +37,13 @@ import cx_Oracle
 
 import cx_Oracle
 
-conn = cx_Oracle.connect('hr/hr@localhost:1521/XEPDB1')
+conn = cx_Oracle.connect('hr/<password>@localhost:1521/XEPDB1')
 # create connection
 url = 'https://www.cricbuzz.com/live-cricket-scores/75560/ban-vs-pak-31st-match-icc-cricket-world-cup-2023'
 
 while True:
 
-    conn = cx_Oracle.connect('hr/hr@localhost:1521/XEPDB1')
+    conn = cx_Oracle.connect('hr/<password>@localhost:1521/XEPDB1')
 
     time.sleep(60)
 
