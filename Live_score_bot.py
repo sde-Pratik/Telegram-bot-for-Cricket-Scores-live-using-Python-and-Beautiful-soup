@@ -65,7 +65,7 @@ while True:
     print("Current Score Is \n ", format(score_card))
     
 
-## ## ## ## ## ## ## ## ##              BOT CODE                  ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+## ## ## ## ## ## ## ## ##              BOT CODE                   ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
     import asyncio
     from telegram import Bot
     async def send_telegram_message():
